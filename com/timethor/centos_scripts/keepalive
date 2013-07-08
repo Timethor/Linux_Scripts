@@ -1,0 +1,7 @@
+#!/bin/bash
+    echo "Updating every $1"
+	while : 
+	do
+		sleep $1
+		date
+	done
